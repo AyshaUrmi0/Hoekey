@@ -15,6 +15,7 @@
       src="https://kit.fontawesome.com/0b584fff55.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./Styles/style.css">
   </head>
   <body>
     <header class="container mx-auto">
@@ -153,7 +154,7 @@
       </div>
     </header>
 
-    <main class="container mx-auto h-[500rem]">
+    <main class="container mx-auto">
       <section class="mt-24">
         <div>
           <div
@@ -165,22 +166,98 @@
               turpis placerat dolor. Purus urna in sit nullam proin.
             </p>
           </div>
-          <div
-            class="grid grid-cols-1 gap-6 mt-12 lg:grid-cols-4 md:grid-cols-2"
-          >
+          <div class="grid grid-cols-1 gap-6 mt-12 lg:grid-cols-4 md:grid-cols-2" >
             <div class="flex flex-col items-center justify-center py-6 space-y-3 border-2">
-              <div
-                class="border-4 radial-progress bg-primary text-primary-content border-primary"
-                style="--value: 70"
-                role="progressbar"
-              >
-                70%
+              <div class="relative">
+                <div class="z-50 text-red-500 radial-progress" style="--value:87;" role="progressbar">87%</div>
+
+                <div class="absolute top-0 left-0 rotate-90 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+
               </div>
+
+              <h6 class="text-xl font-semibold">Experienced Coach</h6>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="flex flex-col items-center justify-center py-6 space-y-3 border-2">
+              <div class="relative">
+                <div class="z-50 text-yellow-500 radial-progress" style="--value:90;" role="progressbar">90%</div>
+
+                <div class="absolute top-0 left-0 rotate-90 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+
+              </div>
+
+              <h6 class="text-xl font-semibold">Prayer Facility</h6>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="flex flex-col items-center justify-center py-6 space-y-3 border-2">
+              <div class="relative">
+                <div class="z-50 text-green-500 radial-progress" style="--value:95;" role="progressbar">95%</div>
+
+                <div class="absolute top-0 left-0 rotate-90 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+
+              </div>
+
+              <h6 class="text-xl font-semibold">Prayer Facility</h6>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="flex flex-col items-center justify-center py-6 space-y-3 border-2">
+              <div class="relative">
+                <div class="z-50 text-blue-500 radial-progress" style="--value:80;" role="progressbar">80%</div>
+
+                <div class="absolute top-0 left-0 rotate-90 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+
+              </div>
+
               <h6 class="text-xl font-semibold">Prayer Facility</h6>
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
         </div>
+      </section>
+ <!-- program section starts -->
+      <section class="mt-24">
+        <div>
+          <div
+            class="flex flex-col items-center justify-center py-12 mt-5 space-y-3 border-dashed border-y-2"
+          >
+            <h3 class="text-3xl font-bold">Program Sections</h3>
+            <p class="w-1/2 text-center opacity-60">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 gap-6 mt-12 lg:grid-cols-2">
+
+            <div class="flex flex-col items-center justify-end w-full p-12 rounded-lg junior-programme">
+             <div>
+              <h3 class="text-2xl font-semibold text-white">Junior Programme</h3>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quod eos commodi, expedita aliquam?</p>
+              <button class="mt-6 btn btn-error">Register Now!</button>
+             </div>
+
+            </div>
+            <div class="flex flex-col items-center justify-end w-full p-12 rounded-lg Teenager-Program">
+              <div>
+                <h3 class="text-2xl font-semibold text-white">Teenager Program</h3>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quod eos commodi, expedita aliquam?</p>
+                <button class="mt-6 btn btn-error">Register Now!</button>
+               </div>
+
+            </div>
+            <div class="flex flex-col items-center justify-end w-full p-12 rounded-lg Professional-Program lg:col-span-2 ">
+              <div>
+                <h3 class="text-2xl font-semibold text-white">Professional Program</h3>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quod eos commodi, expedita aliquam?</p>
+                <button class="mt-6 btn btn-error">Register Now!</button>
+               </div>
+
+            </div>
+
+
+          </div>
+
+
       </section>
     </main>
     <footer></footer>
